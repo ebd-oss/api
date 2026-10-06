@@ -55,7 +55,7 @@ Noting which parts were AI-assisted in the pull request description is welcome. 
 
 Report bugs in the issue tracker with the version, environment, steps to reproduce, and expected behaviour. Do not file a bug as a pull request.
 
-Do not open a public issue for a security vulnerability. Contact the Core Team first. See SECURITY.md.
+Do not open a public issue for a security vulnerability. Contact the Core Team first. See [SECURITY.md](SECURITY.md).
 
 ## License
 
