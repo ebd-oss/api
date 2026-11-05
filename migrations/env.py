@@ -8,8 +8,8 @@ from alembic import context
 from app.database import engine
 from sqlmodel import SQLModel
 
-# Import all models here for metadata
-# from app import models  # noqa
+# Import all models for metadata
+import app.models  # noqa
 
 config = context.config
 
