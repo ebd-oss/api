@@ -15,3 +15,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before contributing.
 Licensed under the **Emergency Bangladesh Non-Commercial Research and Study License**.
 
 Commercial use requires explicit written permission from the copyright holder.
+
+## Development setup
+
+1. Create virtual environment: `python -m venv .venv && source .venv/bin/activate`
+2. Install dependencies: `pip install -r requirements-dev.txt`
+3. Copy environment: `cp .env.example .env` and configure
+4. Run migrations: `alembic upgrade head`
+5. Start server: `uvicorn app:app --reload`
