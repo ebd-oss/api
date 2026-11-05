@@ -57,3 +57,6 @@ __all__.extend(["BloodDonation", "BloodRequest", "BloodRequestResponse", "DonorP
 from app.models.lost_found import LostFoundMatch, LostFoundReport, LostFoundReportMedia, MissingPersonCase
 
 __all__.extend(["LostFoundMatch", "LostFoundReport", "LostFoundReportMedia", "MissingPersonCase"])
+from app.models.crisis import CrisisReport, CrisisReportMedia, CrisisReportNeed, CrisisReportStatusHistory
+
+__all__.extend(["CrisisReport", "CrisisReportMedia", "CrisisReportNeed", "CrisisReportStatusHistory"])
