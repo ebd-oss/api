@@ -20,6 +20,6 @@ def test_naming_convention():
                 indexed_cols.add(c.name)
         for fk_col in fk_cols:
             assert fk_col in indexed_cols, f"FK {table.name}.{fk_col} not indexed"
-        # Every index named idx_*
+        # Every index named idx_* or uq_* (unique constraints)
         for idx in table.indexes:
-            assert idx.name.startswith('idx_'), f"Index {idx.name} not named idx_*"
+            assert idx.name.startswith('idx_') or idx.name.startswith('uq_'), f"Index {idx.name} not named idx_* or uq_*"

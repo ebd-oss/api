@@ -51,3 +51,6 @@ __all__ = [
     "AuditLog",
     "MediaFile",
 ]
+from app.models.blood import BloodDonation, BloodRequest, BloodRequestResponse, DonorProfile
+
+__all__.extend(["BloodDonation", "BloodRequest", "BloodRequestResponse", "DonorProfile"])
