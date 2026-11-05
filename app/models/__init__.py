@@ -60,3 +60,30 @@ __all__.extend(["LostFoundMatch", "LostFoundReport", "LostFoundReportMedia", "Mi
 from app.models.crisis import CrisisReport, CrisisReportMedia, CrisisReportNeed, CrisisReportStatusHistory
 
 __all__.extend(["CrisisReport", "CrisisReportMedia", "CrisisReportNeed", "CrisisReportStatusHistory"])
+from app.models.volunteer import (
+    Mission,
+    MissionStatusHistory,
+    MissionTeamAssignment,
+    Skill,
+    VolunteerCertification,
+    VolunteerLanguage,
+    VolunteerProfile,
+    VolunteerSkill,
+    VolunteerTeam,
+    VolunteerTeamMember,
+    VolunteerTransportMode,
+)
+
+__all__.extend([
+    "Mission",
+    "MissionStatusHistory",
+    "MissionTeamAssignment",
+    "Skill",
+    "VolunteerCertification",
+    "VolunteerLanguage",
+    "VolunteerProfile",
+    "VolunteerSkill",
+    "VolunteerTeam",
+    "VolunteerTeamMember",
+    "VolunteerTransportMode",
+])
